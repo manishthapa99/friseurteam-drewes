@@ -1,0 +1,8 @@
+.headerImage {
+    width: 100%;
+}
+@media screen and (max-width: 500px){
+    .headerImage {
+        width: 500px; height: 405px; object-fit: cover; object-position: 14% 0;
+    }
+}
