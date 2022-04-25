@@ -32,7 +32,6 @@ class Navbar extends Component {
             <div className='MainNavbarContainer'>
                 <img className='navbar-logo' src = "/assets/logo.png" alt=''/>
                 <nav className='NavbarItems'>
-                
                     <div className="menu-icon" onClick={this.handleClick}>
                         <FontAwesomeIcon icon={this.state.clicked ? faXmark : faBars}></FontAwesomeIcon>
                     </div>

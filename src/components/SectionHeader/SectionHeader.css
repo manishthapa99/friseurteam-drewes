@@ -3,6 +3,11 @@
 }
 @media screen and (max-width: 500px){
     .headerImage {
-        width: 500px; height: 405px; object-fit: cover; object-position: 14% 0;
+        height: 450px; object-fit: cover; object-position: 70% 0;
     }
+
+    #main-img{      
+        content:url("/Users/manishthapa/Documents/dev/nextstep/hairdresser/friseurteam-drewes/public/assets/SectionHeaderMobile.jpg");
+      } 
+
 }
