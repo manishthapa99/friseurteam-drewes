@@ -1,3 +1,31 @@
 .headerImage {
     width: 100%;
+    margin-bottom: 50px;
+}
+
+@media screen and (max-width: 500px){
+    .headerImage {
+        height: 250px;
+        margin-top: 50px;
+        margin-bottom: 5px;
+    }
+    #shop-img{      
+        content:url("/Users/manishthapa/Documents/dev/nextstep/hairdresser/friseurteam-drewes/public/assets/SectionHeader2shop.png");
+      } 
+
+}
+
+@media screen and (max-width: 400px){
+    .headerImage {
+        height: 200px;
+    }
+
+}
+
+@media screen and (max-width: 300px){
+    .headerImage {
+        height: 150px;
+    }
+
+
 }

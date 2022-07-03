@@ -1,7 +1,7 @@
 import './SectionHeader.css'
 function SectionHeader(){
     return(
-        <div>
+        <div className='main_image'>
             <img className='headerImage' id="main-img" src = "/assets/sectionHeader1.png" alt=''/>
         </div>
     )
