@@ -15,6 +15,7 @@ function App() {
       <TopBar/>
       <Navigation/>
       <SectionHeader></SectionHeader>
+      {/* <Tab></Tab> */}
       <MyTabs></MyTabs>
       <ShopHeader></ShopHeader>
       <Shop/>

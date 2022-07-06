@@ -32,7 +32,7 @@ class MyTabs extends Component {
               </TabList>
         
               <TabPanel>
-              <table className="table">
+              <table >
                             <thead>
                             <tr>
                                 <th>Damen</th>
