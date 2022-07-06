@@ -43,13 +43,13 @@ class MyTabs extends Component {
                             </thead>
                             <tbody>
                             <tr>
-                                <td>Waschen, Sheneiden, Föhnen</td>
+                                <td>Waschen, Schneiden, Föhnen</td>
                                 <td data-label="Kurz"  >39,50€</td>
                                 <td data-label="Mittel">47,50€</td>
                                 <td data-label="Lang"  >55,00€</td>
                             </tr>
                             <tr>
-                                <td>Waschen, Sheneiden</td>
+                                <td>Waschen, Schneiden</td>
                                 <td data-label="Kurz"  >33,50€</td>
                                 <td data-label="Mittel">36,50€</td>
                                 <td data-label="Lang"  >40,00€</td>
@@ -79,7 +79,7 @@ class MyTabs extends Component {
                                 <td data-label="Lang"  >20,00€</td>
                             </tr>
                             <tr>
-                                <td>Heißschern-Schnitt</td>
+                                <td>Heißscheren-Schnitt</td>
                                 <td data-label="Kurz"  >32,00€</td>
                                 <td data-label="Mittel">32,00€</td>
                                 <td data-label="Lang"  >32,00€</td>
@@ -100,7 +100,7 @@ class MyTabs extends Component {
                             </thead>
                             <tbody>
                             <tr>
-                                <td>Waschen, Sheneiden, Föhnen</td>
+                                <td>Waschen, Schneiden, Föhnen</td>
                                 <td data-label="Kurz"  >24,50€</td>
                                 <td data-label="Mittel">28,50€</td>
                                 
@@ -130,7 +130,7 @@ class MyTabs extends Component {
                                
                             </tr>
                             <tr>
-                                <td>Maschineenschnitt</td>
+                                <td>Maschinenschnitt</td>
                                 <td data-label="Kurz"  >13,50€</td>
                                 <td data-label="Mittel">13,50€</td>
                             </tr>
@@ -186,7 +186,7 @@ class MyTabs extends Component {
                                 <td  data-label="Dick"  >ab 80,00€</td>
                             </tr>
                             <tr>
-                                <td>Verdelung</td>
+                                <td>Veredelung</td>
                                 <td  data-label="Fein"  >ab 10,00€</td>
                                 <td  data-label="Normal">ab 15,00€</td>
                                 <td  data-label="Dick"  >ab 20,00€</td>
@@ -248,7 +248,7 @@ class MyTabs extends Component {
                                 <td data-label="Lang"  >ab 45,00€</td>
                             </tr>
                             <tr>
-                                <td>Intesivplege</td>
+                                <td>Intesivpflege</td>
                                 <td data-label="Kurz"  >8,00€</td>
                                 <td data-label="Mittel">10,00€</td>
                                 <td data-label="Lang"  >ab 13,00€</td>

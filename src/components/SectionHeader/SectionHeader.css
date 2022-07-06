@@ -8,11 +8,11 @@
         object-position: 100% 0;
     }
 
-    /* #main-img{      
+    #main-img{      
         content:url("/Users/manishthapa/Documents/dev/nextstep/hairdresser/friseurteam-drewes/public/assets/SectionHeaderMobile.jpg");
-      }  */
+      }  
     
       .main_image{
-          margin-top: 45px;
+          margin-top: -45px;
       }
 }

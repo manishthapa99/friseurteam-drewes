@@ -23,33 +23,28 @@ function OurTeam(){
         <div className="team_wrapper">
             <Card
                 img="/assets/MichaelaDrewes.jpg"
-                title="A beautiful woman should break her mirror early."
-                description="Michaela Drewes"
+                title="Meisterin, Inhaberin"
+                description="Michaela"
                 />
             <Card
                 img="/assets/TamaraRossberg.jpg"
-                title="A beautiful woman should break her mirror early."
-                description="Tamara Rossberg"
+                title="Gesellin, Teilzeit"
+                description="Tamara"
                 />
             <Card
                 img="/assets/ThelkaKok.jpg"
-                title="A beautiful woman should break her mirror early."
-                description="Thelka Kok"
+                title="Gesellin, Teilzeit"
+                description="Thekla"
                 />
             <Card
                 img="/assets/VanessaGarbade.jpg"
-                title="A beautiful woman should break her mirror early."
-                description="Vanessa Garbade"
+                title="Meisterin, Vollzeit"
+                description="Vanessa"
                 />
             <Card
                 img="/assets/5.jpg"
-                title="A beautiful woman should break her mirror early."
-                description="Vanessa Garbade"
-                />
-            <Card
-                img="/assets/6.jpg"
-                title="A beautiful woman should break her mirror early."
-                description="Vanessa Garbade"
+                title="Gesellin, Vollzeit"
+                description="Celina"
                 />
         </div>
     )
