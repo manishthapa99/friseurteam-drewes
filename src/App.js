@@ -6,6 +6,7 @@ import ShopHeader from './components/ShopHeader/ShopHeader';
 import OurTeam from './components/OurTeam/OurTeam';
 import MyTabs from './components/MyTabs/MyTabs';
 import Footer from './components/Footer/Footer';
+import Services from './components/Services';
 import OurTeamHeader from './components/OurTeamHeader/OurTeamHeader';
 
 
@@ -15,7 +16,7 @@ function App() {
       <TopBar/>
       <Navigation/>
       <SectionHeader></SectionHeader>
-      {/* <Tab></Tab> */}
+      <Services></Services>
       <MyTabs></MyTabs>
       <ShopHeader></ShopHeader>
       <Shop/>
