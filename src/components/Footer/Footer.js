@@ -56,9 +56,9 @@ return (
 			</FooterLink>
 		</Column>
         <Column>
-            <Heading>Direction</Heading>
-            <FooterLink href="#">
-                <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d9548.187496967797!2d8.71049!3d53.25286!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x322d5a29608605e8!2sFriseurteam%20Michaela%20Drewes!5e0!3m2!1sen!2sde!4v1656611088269!5m2!1sen!2sde" width="250" height="250" style={{border:0}} allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+            <Heading>Standort</Heading>
+            <FooterLink href="#" >
+                <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d9548.187496967797!2d8.71049!3d53.25286!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x322d5a29608605e8!2sFriseurteam%20Michaela%20Drewes!5e0!3m2!1sen!2sde!4v1656611088269!5m2!1sen!2sde" width="250" height="250" style={{border:"solid 3px #C8B16F", borderRadius:"15px", padding:"10px"}} allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
             </FooterLink>
 		</Column>
 		</Row>

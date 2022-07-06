@@ -8,7 +8,6 @@ import OurTeam from './components/OurTeam/OurTeam';
 import MyTabs from './components/MyTabs/MyTabs';
 import Footer from './components/Footer/Footer';
 import OurTeamHeader from './components/OurTeamHeader/OurTeamHeader';
-import { Tabs } from 'react-bootstrap';
 
 function App() {
   return (
