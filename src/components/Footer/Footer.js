@@ -14,7 +14,7 @@ return (
 	<Container>
 		<Row>
 		<Column>
-			<Heading>Quick Links V 1</Heading>
+			<Heading>Quick Links V 2</Heading>
             <FooterLink href="#">Home</FooterLink>
             <FooterLink href="#">Service</FooterLink>
             <FooterLink href="#">Shop</FooterLink>
