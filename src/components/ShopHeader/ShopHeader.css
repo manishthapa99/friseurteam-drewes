@@ -10,7 +10,7 @@
         margin-bottom: 5px;
     }
     #shop-img{      
-        content:url("/Users/manishthapa/Documents/dev/nextstep/hairdresser/friseurteam-drewes/public/assets/SectionHeader2shop.png");
+        content:url("../../../public/assets/SectionHeader2shop.png");
       } 
 
 }

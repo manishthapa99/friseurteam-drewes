@@ -8,7 +8,7 @@
     }
 
     #team-img{      
-        content:url("/Users/manishthapa/Documents/dev/nextstep/hairdresser/friseurteam-drewes/public/assets/OurTeamMobileView.png");
+        content:url("../../../public/assets/OurTeamMobileView.png");
       } 
     
       .team_image{

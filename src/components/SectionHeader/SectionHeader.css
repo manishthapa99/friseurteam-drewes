@@ -9,7 +9,7 @@
     }
 
     #main-img{      
-        content:url("/Users/manishthapa/Documents/dev/nextstep/hairdresser/friseurteam-drewes/public/assets/SectionHeaderMobile.jpg");
+        content:url("../../../public/assets/SectionHeaderMobile.jpg");
       }  
     
       .main_image{
