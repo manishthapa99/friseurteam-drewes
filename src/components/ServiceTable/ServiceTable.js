@@ -441,9 +441,12 @@ export const TabPanel = ({
   _isActive,
   children,
 }) => (
-  <div className={ `TabPanel  ${ _isActive ? "is-active" : "" }` }>
-    { children }
-  </div>
+    <div className={`TabPanel is-active`} >
+        { children }
+    </div>
+//   <div className={ `TabPanel  ${ _isActive ? "is-active" : "" }` }>
+//     { children }
+//   </div>
 )
 
 /* --- */
