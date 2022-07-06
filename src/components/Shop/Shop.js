@@ -6,7 +6,7 @@ function Card(props){
         <div className="card">
           <img src={props.img} className="class__img"/>
           <div className="hello">
-            <button className="btn">€29,99</button>
+            <button className="btn">€13,60</button>
           </div>
         </div>
         <div className="detail">
@@ -24,33 +24,33 @@ function Shop(){
     return(
         <div className="wrapper">
             <Card
-                img="/assets/service1.png"
-                title="Mangala Copper Red"
+                img="/assets/products/glynt-nutri.jpg"
+                title="NUTRI Shampoo"
+                description="GLYNT"
+                price="13.60 euros"/>
+            <Card
+                img="/assets/products/refresh-shampoo.jpg"
+                title="REFRESH Shampoo"
+                description="GLYNT"
+                price="13.60 euros"/>
+            <Card
+                img="/assets/products/derma-shampoo.webp"
+                title="DERMA Shampoo"
                 description="GLYNT"
                 price="45 euros"/>
             <Card
-                img="/assets/service2.png"
-                title="Mangala Copper Red"
+                img="/assets/products/pure-shampoo.webp"
+                title="PURE Shampoo"
                 description="GLYNT"
                 price="45 euros"/>
             <Card
-                img="/assets/service4.png"
-                title="Mangala Copper Red"
+                img="/assets/products/sun-shampoo.jpg"
+                title="SUN Shampoo"
                 description="GLYNT"
-                price="45 euros"/>
+                price="7.8 euros"/>
             <Card
-                img="/assets/service4.png"
-                title="Mangala Copper Red"
-                description="GLYNT"
-                price="45 euros"/>
-            <Card
-                img="/assets/service5.png"
-                title="Mangala Copper Red"
-                description="GLYNT"
-                price="45 euros"/>
-            <Card
-                img="/assets/service1.png"
-                title="Mangala Copper Red"
+                img="/assets/products/sensitive-shampoo.jpg"
+                title="SENSITIVE Shampoo"
                 description="GLYNT"
                 price="45 euros"/>
         </div>
