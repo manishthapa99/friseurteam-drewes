@@ -4,9 +4,8 @@ import Shop from './components/Shop/Shop';
 import Navigation from './components/Navigation/Navigation';
 import ShopHeader from './components/ShopHeader/ShopHeader';
 import OurTeam from './components/OurTeam/OurTeam';
-import MyTabs from './components/MyTabs/MyTabs';
 import Footer from './components/Footer/Footer';
-import Services from './components/Services';
+import ServiceTable from './components/ServiceTable/ServiceTable';
 import OurTeamHeader from './components/OurTeamHeader/OurTeamHeader';
 
 
@@ -16,8 +15,9 @@ function App() {
       <TopBar/>
       <Navigation/>
       <SectionHeader></SectionHeader>
-      <Services></Services>
-      <MyTabs></MyTabs>
+      <ServiceTable/>
+      {/* <Services></Services>
+      <MyTabs></MyTabs> */}
       <ShopHeader></ShopHeader>
       <Shop/>
       <OurTeamHeader></OurTeamHeader>

@@ -1,8 +1,8 @@
 import React,{Component} from "react";
-import './MyTabs.css';
+import './ServiceTable.css';
 
 
-class MyTabs extends Component {           
+class ServiceTable extends Component {           
     render(){
         return(
             <div className="Root">
@@ -85,7 +85,7 @@ class MyTabs extends Component {
                                   <td data-label="Lang"  >32,00€</td>
                               </tr>
                               </tbody>
-                          </table>
+                </table>
               </TabPanel>
         
               <TabPanel>
@@ -356,7 +356,7 @@ class MyTabs extends Component {
     }
 }
 
-export default MyTabs;
+export default ServiceTable;
 
 class Tabs extends Component {
   state = { selected: this.props.selected };
