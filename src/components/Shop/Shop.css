@@ -59,6 +59,7 @@ body {
 
 .detail{
   text-align:center;
+  margin-bottom: 2rem;
  }
 
 .line{
@@ -69,6 +70,7 @@ body {
 @media screen and (min-width: 100px) {
   .wrapper {
     grid-template-columns: repeat(auto-fit, minmax(14rem, 16rem));
+    margin-bottom: 4rem;
   }
 
   .card {

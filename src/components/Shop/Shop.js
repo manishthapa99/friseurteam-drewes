@@ -15,7 +15,6 @@ function Card(props){
           <div style={{ borderTop: "2px solid #C8B170 ", marginLeft: 80, marginRight: 80 }}/>  
         </div>
     </div>
-    
     )
   }
 

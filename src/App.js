@@ -9,6 +9,7 @@ import ServiceTable from './components/ServiceTable/ServiceTable';
 import Services from './components/Services';
 import MyTabs from './components/MyTabs/MyTabs'
 import OurTeamHeader from './components/OurTeamHeader/OurTeamHeader';
+import { OurTeamRow2 } from './components/OurTeam/OurTeam';
 
 
 function App() {
@@ -24,6 +25,7 @@ function App() {
       <Shop/>
       <OurTeamHeader></OurTeamHeader>
       <OurTeam></OurTeam>
+      <OurTeamRow2/>
       <Footer></Footer>
     </div>
   );

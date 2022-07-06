@@ -36,6 +36,17 @@ function OurTeam(){
                 title="Gesellin, Teilzeit"
                 description="Thekla"
                 />
+            
+        </div>
+    )
+}
+
+
+export default OurTeam;
+
+export function OurTeamRow2(){
+    return(
+        <div className='team_wrapper'>
             <Card
                 img="/assets/VanessaGarbade.jpg"
                 title="Meisterin, Vollzeit"
@@ -48,6 +59,4 @@ function OurTeam(){
                 />
         </div>
     )
-}
-
-export default OurTeam;  
+}  

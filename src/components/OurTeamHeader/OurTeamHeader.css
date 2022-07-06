@@ -1,5 +1,6 @@
 .teamImage {
     width: 100%;
+    margin-bottom: 2rem;
 }
 @media screen and (max-width: 500px){
     .teamImage {
