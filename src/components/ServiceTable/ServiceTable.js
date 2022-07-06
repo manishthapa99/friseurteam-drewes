@@ -437,7 +437,7 @@ const Tab = ({
   </li>
 )
 
-const TabPanel = ({
+export const TabPanel = ({
   _isActive,
   children,
 }) => (
@@ -448,7 +448,7 @@ const TabPanel = ({
 
 /* --- */
 
-const Button = ({ children }) => (
+export const Button = ({ children }) => (
   <button className="Button">
     { children }
   </button>
