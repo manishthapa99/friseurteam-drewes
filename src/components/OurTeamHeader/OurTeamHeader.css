@@ -1,8 +1,8 @@
-.headerImage {
+.teamImage {
     width: 100%;
 }
 @media screen and (max-width: 500px){
-    .headerImage {
+    .teamImage {
         object-fit: cover;
         object-position: 70% 0;
     }
