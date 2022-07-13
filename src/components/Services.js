@@ -19,8 +19,8 @@ function Services(){
     setActiveTab(value);
   };
     return(
-        <div>
-            {/* <div className = "Tit"><h1>Services</h1></div> */}
+       
+           
        <div className="tabMainContainer">
             <TabsMainContainer>
                 <TabsContainer>
@@ -50,13 +50,13 @@ function Services(){
                             </thead>
                             <tbody>
                             <tr>
-                                <td>Waschen, Schneiden, Föhnen</td>
+                                <td>Waschen, Sheneiden, Föhnen</td>
                                 <td data-label="Kurz"  >39,50€</td>
                                 <td data-label="Mittel">47,50€</td>
                                 <td data-label="Lang"  >55,00€</td>
                             </tr>
                             <tr>
-                                <td>Waschen, Schneiden</td>
+                                <td>Waschen, Sheneiden</td>
                                 <td data-label="Kurz"  >33,50€</td>
                                 <td data-label="Mittel">36,50€</td>
                                 <td data-label="Lang"  >40,00€</td>
@@ -86,7 +86,7 @@ function Services(){
                                 <td data-label="Lang"  >20,00€</td>
                             </tr>
                             <tr>
-                                <td>Heißscheren-Schnitt</td>
+                                <td>Heißschern-Schnitt</td>
                                 <td data-label="Kurz"  >32,00€</td>
                                 <td data-label="Mittel">32,00€</td>
                                 <td data-label="Lang"  >32,00€</td>
@@ -106,7 +106,7 @@ function Services(){
                             </thead>
                             <tbody>
                             <tr>
-                                <td>Waschen, Schneiden, Föhnen</td>
+                                <td>Waschen, Sheneiden, Föhnen</td>
                                 <td data-label="Kurz"  >24,50€</td>
                                 <td data-label="Mittel">28,50€</td>
                                 
@@ -253,7 +253,7 @@ function Services(){
                                 <td data-label="Lang"  >ab 45,00€</td>
                             </tr>
                             <tr>
-                                <td>Intesivpflege</td>
+                                <td>Intesivplege</td>
                                 <td data-label="Kurz"  >8,00€</td>
                                 <td data-label="Mittel">10,00€</td>
                                 <td data-label="Lang"  >ab 13,00€</td>
@@ -359,7 +359,7 @@ function Services(){
                 </div>
             </TabsMainContainer> 
        </div> 
-       </div>
+      
     )
 }
 

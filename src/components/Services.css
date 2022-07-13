@@ -4,6 +4,7 @@ body {
 	line-height: 1.42em;
 	color:#000000;
 	background-color:#ffffff;
+	
   }
   
   h1 {
@@ -58,7 +59,6 @@ body {
 }
 .tabMainContainer{
     padding-left: 20%;
-	padding-top: 75px;
 }
 
 .table tr:hover {
@@ -68,13 +68,69 @@ body {
              box-shadow: 0 6px 6px -6px #000000;
  }
 /*responsive*/
-@media screen and (min-width: 500px) {
-    .Root{
-        padding: 30px 250px;
-    }
-    .TabList{
-        list-style-type: none;
+@media screen and (max-width: 1000px){
+    .tabMainContainer{
+        padding-left: 10%;
     }
 }
-
-
+@media screen and (max-width: 900px){
+    .tabMainContainer{
+        padding-left: 0%;
+    }
+}
+@media screen and (max-width: 500px){
+    .tabs{
+        padding-left: 0%;
+        font-size: 18px;
+    }
+	.table thead{
+		display: none;
+	}
+    .tabMainContainer{
+        padding-left: 0%;
+		padding-bottom: 40%;
+		margin-bottom: 800px;
+		
+    }
+	.table, .table tbody, .table tr, .table td{
+		display: block;
+		width: 100%;
+		
+	}
+	.table tr{
+		margin-bottom:15px;
+	}
+	.table td{
+		text-align: left;
+		padding-left: 60%;
+		text-align: left;
+		position: relative;
+		
+	}
+    .table tr {
+        background-color: #ffffff;
+     -webkit-box-shadow: 0 6px 6px -6px #000000;
+            -moz-box-shadow: 0 6px 6px -6px #000000;
+                 box-shadow: 0 6px 6px -6px #000000;
+     }
+     .table td:first-child { 
+        padding-left: 0%;
+        text-align:left;
+        color: #000000; 
+        font-weight: bold;
+        }
+       
+	.table th:first-child{
+        display:none;
+    }
+    .table td::before{
+		content: attr(data-label);
+		position: absolute;
+		left:0;
+		width: 50%;
+		padding-left:15px;
+		font-size:15px;
+		font-weight: bold;
+		text-align: left;
+	}
+}

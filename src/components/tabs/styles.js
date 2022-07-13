@@ -44,6 +44,7 @@ export const TabsMainContainer = styled.div`
   display: flex;
   flex-direction: row;
   width: 100%;
+  // margin-bottom: 800px;
   
 `;
 
