@@ -58,6 +58,7 @@ body {
 }
 .tabMainContainer{
     padding-left: 20%;
+	padding-top: 75px;
 }
 
 .table tr:hover {

@@ -4,18 +4,17 @@ function Card(props){
     return(
     <div>
         <div className="card">
-          <img src={props.img} className="class__img"/>
+          <img src={props.img} className="class__img" style={{height: "200px", width: "100%", objectFit: "cover"}}/>
         </div>
         <div className="detail">
           <p className="brand"><b>{props.description}</b></p>
           <div style={{ borderTop: "3px solid #C8B170 ", marginLeft: 80, marginRight: 80 ,marginBottom:8}}/>  
           <h2 className="title">{props.title}</h2>
-          
         </div>
     </div>
     
     )
-  }
+}
 
 
 function OurTeam(){
@@ -36,7 +35,6 @@ function OurTeam(){
                 title="Gesellin, Teilzeit"
                 description="Thekla"
                 />
-            
         </div>
     )
 }

@@ -18,9 +18,9 @@ function App() {
       <TopBar/>
       <Navigation/>
       <SectionHeader></SectionHeader>
-      <ServiceTable/>
+      {/* <ServiceTable/> */}
       <Services></Services>
-      <MyTabs></MyTabs>
+      {/* <MyTabs></MyTabs> */}
       <ShopHeader></ShopHeader>
       <Shop/>
       <OurTeamHeader></OurTeamHeader>

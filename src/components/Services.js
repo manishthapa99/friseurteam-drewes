@@ -20,7 +20,7 @@ function Services(){
   };
     return(
         <div>
-            <div className = "Tit"><h1>Services</h1></div>
+            {/* <div className = "Tit"><h1>Services</h1></div> */}
        <div className="tabMainContainer">
             <TabsMainContainer>
                 <TabsContainer>

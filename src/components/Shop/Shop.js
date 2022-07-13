@@ -4,7 +4,7 @@ function Card(props){
     return(
     <div>
         <div className="card">
-          <img src={props.img} className="class__img"/>
+          <img src={props.img} className="class__img" style={{height: "300px", width: "100%", objectFit: "cover"}}/>
           <div className="hello">
             <button className="btn">€13,60</button>
           </div>
