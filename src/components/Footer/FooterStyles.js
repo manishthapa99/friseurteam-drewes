@@ -51,6 +51,17 @@ text-decoration: none;
 	transition: 200ms ease-in;
 }
 `;
+export const fuckItem = styled.a`
+color: #fff;
+margin-bottom: 20px;
+font-size: 18px;
+text-decoration: none;
+
+&:hover {
+	color: #C8B16F;
+	transition: 200ms ease-in;
+}
+`;
 
 export const Heading = styled.p`
 font-size: 24px;

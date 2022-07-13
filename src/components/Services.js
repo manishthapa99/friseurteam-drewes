@@ -21,7 +21,7 @@ function Services(){
     return(
        
            
-       <div className="tabMainContainer">
+       <div id = "services" className="tabMainContainer">
             <TabsMainContainer>
                 <TabsContainer>
                     <div className="tabs">

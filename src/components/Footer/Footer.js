@@ -1,4 +1,5 @@
 import React from "react";
+import {Link} from 'react-scroll'
 import {
 Box,
 Container,
@@ -10,17 +11,21 @@ Heading,
 
 const Footer = () => {
 return (
-	<Box >
+	<Box id = "contact">
 	<Container>
 		<Row>
 		<Column>
-			<Heading>Quick Links V 6</Heading>
-            <FooterLink href="#">Home</FooterLink>
-            <FooterLink href="#">Service</FooterLink>
+			<Heading>Quick Links </Heading>
+             <FooterLink><Link  to="home" spy={true} smooth={true}>HOME</Link></FooterLink>
+             <FooterLink><Link  to="services" spy={true} smooth={true}>LEISTUNGEN</Link></FooterLink>
+             <FooterLink><Link  to="shop" spy={true} smooth={true}>SHOP</Link></FooterLink>
+             <FooterLink><Link  to="team" spy={true} smooth={true}>TEAM</Link></FooterLink>
+             <FooterLink><Link  to="conatct" spy={true} smooth={true}>KONTAKT</Link></FooterLink>
+            {/* <FooterLink href="#">Service</FooterLink>
             <FooterLink href="#">Shop</FooterLink>
             <FooterLink href="#">Team</FooterLink>
 			<FooterLink href="#" target="_blank">Datenschutz</FooterLink>
-			<FooterLink href="#" target="_blank">Haftungsausschluss</FooterLink>
+			<FooterLink href="#" target="_blank">Haftungsausschluss</FooterLink> */} */}
 		</Column>
 		<Column>
 			<Heading>Impressum</Heading>

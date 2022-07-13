@@ -1,7 +1,7 @@
 import './ShopHeader.css'
 function ShopHeader(){
     return(
-        <div>
+        <div  id = "shop" >
             <img className='headerImage' id="shop-img" src = "/assets/SectionHeaderShop.png" alt=''/>
         </div>
     )

@@ -22,7 +22,9 @@ function App() {
       <Services></Services>
       {/* <MyTabs></MyTabs> */}
       <ShopHeader></ShopHeader>
+      {/* <HashLink><Shop/></HashLink> */}
       <Shop/>
+      
       <OurTeamHeader></OurTeamHeader>
       <OurTeam></OurTeam>
       <OurTeamRow2/>
