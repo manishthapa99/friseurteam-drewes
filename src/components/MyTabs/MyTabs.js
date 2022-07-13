@@ -6,7 +6,7 @@ class MyTabs extends Component {
     render(){
         return(
             <div className="Root">
-            <Tabs selected={ 1 }>
+            <Tabs selected={ 0 }>
               <TabList>
                 <Tab>
                   <Button>Damen</Button>
@@ -32,7 +32,7 @@ class MyTabs extends Component {
               </TabList>
         
               <TabPanel>
-                <table >
+                <table className="table">
                               <thead>
                               <tr>
                                   <th>Damen</th>
