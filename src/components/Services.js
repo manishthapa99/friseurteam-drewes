@@ -50,13 +50,13 @@ function Services(){
                             </thead>
                             <tbody>
                             <tr>
-                                <td>Waschen, Sheneiden, Föhnen</td>
+                                <td>Waschen, Schneiden, Föhnen</td>
                                 <td data-label="Kurz"  >39,50€</td>
                                 <td data-label="Mittel">47,50€</td>
                                 <td data-label="Lang"  >55,00€</td>
                             </tr>
                             <tr>
-                                <td>Waschen, Sheneiden</td>
+                                <td>Waschen, Schneiden</td>
                                 <td data-label="Kurz"  >33,50€</td>
                                 <td data-label="Mittel">36,50€</td>
                                 <td data-label="Lang"  >40,00€</td>
@@ -86,7 +86,7 @@ function Services(){
                                 <td data-label="Lang"  >20,00€</td>
                             </tr>
                             <tr>
-                                <td>Heißschern-Schnitt</td>
+                                <td>Heißscheren-Schnitt</td>
                                 <td data-label="Kurz"  >32,00€</td>
                                 <td data-label="Mittel">32,00€</td>
                                 <td data-label="Lang"  >32,00€</td>
@@ -106,7 +106,7 @@ function Services(){
                             </thead>
                             <tbody>
                             <tr>
-                                <td>Waschen, Sheneiden, Föhnen</td>
+                                <td>Waschen, Schneiden, Föhnen</td>
                                 <td data-label="Kurz"  >24,50€</td>
                                 <td data-label="Mittel">28,50€</td>
                                 
@@ -136,7 +136,7 @@ function Services(){
                                
                             </tr>
                             <tr>
-                                <td>Maschineenschnitt</td>
+                                <td>Maschinenschnitt</td>
                                 <td data-label="Kurz"  >13,50€</td>
                                 <td data-label="Mittel">13,50€</td>
                             </tr>
@@ -179,19 +179,19 @@ function Services(){
                                 <td  data-label="Dick"  >ab 40,00€</td>
                             </tr>
                             <tr>
-                                <td>Fliensträhnen Oberkopf</td>
+                                <td>Foliensträhnen Oberkopf</td>
                                 <td  data-label="Fein"  >ab 35,00€</td>
                                 <td  data-label="Normal">ab 45,00€</td>
                                 <td  data-label="Dick"  >ab 55,00€</td>
                             </tr>
                             <tr>
-                                <td>Fliensträhnen gesamter Kopf</td>
+                                <td>Foliensträhnen gesamter Kopf</td>
                                 <td  data-label="Fein"  >ab 50,00€</td>
                                 <td  data-label="Normal">ab 65,00€</td>
                                 <td  data-label="Dick"  >ab 80,00€</td>
                             </tr>
                             <tr>
-                                <td>Verdelung</td>
+                                <td>Veredelung</td>
                                 <td  data-label="Fein"  >ab 10,00€</td>
                                 <td  data-label="Normal">ab 15,00€</td>
                                 <td  data-label="Dick"  >ab 20,00€</td>
@@ -253,7 +253,7 @@ function Services(){
                                 <td data-label="Lang"  >ab 45,00€</td>
                             </tr>
                             <tr>
-                                <td>Intesivplege</td>
+                                <td>Intesivpflege</td>
                                 <td data-label="Kurz"  >8,00€</td>
                                 <td data-label="Mittel">10,00€</td>
                                 <td data-label="Lang"  >ab 13,00€</td>
@@ -325,11 +325,11 @@ function Services(){
                                 <td>ab 5,00€</td>
                             </tr>
                             <tr>
-                                <td>Tages Make Up</td>
+                                <td>Tages Make-Up</td>
                                 <td>ab 15,00€</td>
                             </tr>
                             <tr>
-                                <td>Abend Make Up</td>
+                                <td>Abend Make-Up</td>
                                 <td>ab 25,00€</td>
                             </tr>
                             </tbody>
